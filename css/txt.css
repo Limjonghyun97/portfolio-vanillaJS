@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Stardos+Stencil:wght@400;700&display=swap');
+
+.title{
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    height: 500px;
+
+    margin-left: 40px;
+    padding-top: 100px;
+}
+
+.title h1{
+    font-size: 150px;
+    margin-top: -50px;
+}
+
+.title span{
+    font-size: 80px;
+    margin-left: 10px;
+}
+
+.nav_list{
+    display: flex;
+    align-items: center;
+
+    margin-top: 300px;
+    padding-left: 20px;
+
+    text-align: center;
+    font-size: 40px;
+}
+
+.nav_list li{
+    padding-left: 20px;
+    color: #707070;
+    font-weight: bold;
+}
+
+.nav_list li:hover{
+    color: #FF8000;
+}
+
+.nav_list li hr{
+    width: 180px;
+    background: #707070;
+    height: 3px;
+    border: none;
+}
+
+/* profile txt */
+.main_txt{
+    position: absolute;
+    right: 5%;
+    top: 100px;
+    color: #FF8000;
+
+    text-align: right;
+}
+
+.main_txt h2{
+    font-size: 100px;
+    
+}
+
+.main_txt p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 140px;
+}
+
+/* my skill */
+.my_skill h2{
+    color: white;
+    font-size: 100px;
+    padding: 30px 150px;
+}
+
+/* project */
+.project h2{
+    color: white;
+    font-size: 100px;
+    padding: 30px 150px;
+}
